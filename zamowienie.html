@@ -20,7 +20,7 @@
       </div>
     </div>
     <div class="banner">
-      <h2>Nasza oferta</h2>
+      <h2>Zamów nasz produkt</h2>
     </div>
     <div class="flex">
       <div class="left">
@@ -54,11 +54,30 @@
         </table>
       </div>
       <div class="right">
-        <img src="./photos/cukierki3.jpg" alt="Nasze wyroby" />
+        <div class="form">
+          <p>Podaj numer kształtu:</p>
+          <br />
+          <input id="shape" type="number" />
+          <br />
+          <p>skomponuj swój kolor, podaj RGB:</p>
+          <br />
+          <p>R:</p>
+          <input id="R" type="number" />
+          <p>G:</p>
+          <input id="G" type="number" />
+          <p>B:</p>
+          <input id="B" type="number" />
+          <br />
+          <button onClick="calculate()">Zamów</button>
+        </div>
+        <p>Wybrany kształt</p>
+        <br />
+        <button class="colorPicker">Wybrany kolor</button>
       </div>
     </div>
-    <div class="footer">
+    <footer class="footer">
       <p>Autor strony: mój PESEL</p>
-    </div>
+    </footer>
+    <script src="skrypt.js"></script>
   </body>
 </html>
